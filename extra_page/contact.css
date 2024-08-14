@@ -1,0 +1,223 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(#06565fc9 ,	#0b3b41e7);
+  position: fixed;
+  width: 100%;
+  top: 0;
+ 
+}
+.logo{
+  display: flex;
+  
+  
+
+}
+.logo h2{
+  color: aliceblue;
+  font-size: 40px;
+  margin-top: 17px;
+  margin-left: 20px;
+}
+.logo img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+nav > ul{
+  display: flex;
+  
+}
+nav > ul > li{
+  list-style: none;
+  padding: 25px 18px;
+  
+
+}
+nav > ul > li > a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.user{
+  color: antiquewhite;
+  font-size: 25px;
+  background-color: rgba(0, 115, 255, 0.781);
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin-top:15px ;
+  margin-right: 50px;
+  cursor: pointer;
+  position: relative;
+}
+.user a i{
+  margin-top: 10px;
+  color: antiquewhite;
+}
+.search{
+margin: 200px 0 0 450px;
+position: absolute;
+top: 170px;
+
+} 
+.search input{
+  height: 53px;
+  width: 500px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: rgb(184, 206, 249);
+  color: aliceblue;
+}
+.search i{
+  padding-top: 13px;
+  padding-left: 13px;
+  border-radius: 10%;
+  margin: 10px 10px;
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 95, 190, 0.765);
+}
+/* dropdownmenu code start here */
+.dropdownmenu{
+  opacity: 0;
+  visibility: hidden;
+  background-image: linear-gradient(#06565fc9 ,	#0b3b41e7);
+  margin-top:32px;
+  width:150px ;
+  position: absolute;
+  border-radius: 5px;
+  transition: 0.5s;
+
+}
+nav > ul > li:hover > ul{
+opacity: 1;
+visibility: visible;
+}
+nav > ul > li:hover{
+   background-image: linear-gradient(#00dff8c9 ,	#398791e7);
+}
+nav > ul{
+  margin: auto;
+}
+nav > ul > li:first-child{
+  border-left: 1px solid white;
+}
+nav > ul > li{
+  border-right: 1px solid rgb(255, 255, 255);
+  transition: 0.5s;
+  height: 1px;
+  padding-top: 5px;
+  
+}
+.dropdownmenu > li{
+  list-style: none;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid wheat;
+  border-radius: 5px;
+  
+}
+.dropdownmenu > li:hover{
+  background-image: linear-gradient(#00dff8c9 ,	#398791e7);
+}
+.dropdownmenu > li:first-child{
+  border-top: 1px solid wheat;;
+}
+.dropdownmenu > li > a{
+  text-decoration: none;
+  color: white;
+}
+.user-list{
+   opacity: 0;
+  visibility: hidden;
+  background-image: linear-gradient(#06565fc9 ,	#0b3b41e7);
+  margin:27px -70px;
+  width:240px ;
+  position: absolute;
+  border-radius: 5px;
+  transition: 0.5s;
+  
+  
+
+}
+.user:hover .user-list{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.user-list li:hover{
+   background-image: linear-gradient(#00dff8c9 ,	#398791e7);
+}
+.user-list li{
+  list-style: none;
+  border-bottom: 1px solid white;
+   border-top: 1px solid white;
+   height: 35px;
+  margin-right: 70px;
+  padding-left: 
+}
+.user-list > li > a{
+  text-decoration: none;
+  color: white;
+} 
+form{
+  background-color: rgba(255, 192, 203, 0.756);
+  height: 470px;
+  width: 540px;
+  margin:130px auto;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.711);
+}
+form h2{
+ display: flex;
+ justify-content: center;
+ margin: 30px;
+ padding-top:20px ;
+}
+.name-email-parents input{
+  display: block;
+  margin: 15px auto;
+  width: 330px;
+  height: 28px;
+  border-radius: 20px;
+  border: none;
+  padding:5px 10px;
+
+}
+textarea{
+height: 150px;
+width: 330px;
+display: flex;
+margin:20px auto;
+border: none;
+padding: 10px;
+border-radius: 10px;
+}
+.submit{
+  height: 40px;
+  width: 330px;
+  display: flex;
+  margin: auto;
+  border-radius: 30px;
+  border: none;
+  background-image: linear-gradient(rgba(21, 255, 0, 0.508),rgba(82, 4, 55, 0.66));
+  color: rgb(63, 0, 200);
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.submit:hover{
+   background-image: linear-gradient(rgba(30, 182, 16, 0.508),rgba(9, 0, 6, 0.66));
+}

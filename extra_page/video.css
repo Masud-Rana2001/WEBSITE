@@ -2,13 +2,6 @@
   margin: 0;
   padding: 0;
 }
-header{
-  background-image: url(image/pexels-pixabay-414660.jpg);
-  
-  background-size: cover;
-  background-position: bottom;
- height: 500px;
-}
 nav{
   display: flex;
   justify-content: space-between;
@@ -177,44 +170,12 @@ nav > ul > li{
   text-decoration: none;
   color: white;
 } 
-.title{
-  color: rgb(95, 142, 224);
-  
- 
-  width: 300px ;
-  font-size: 35px;
-  margin: auto;
-  text-align: center;
-  position: absolute;
-  top:100px ;
-  right: 34%;
-  font-size: 22px;
-  padding: 20px 10px 0 ;
-  border-radius: 20px;
-
-}
-.subtitle{
-  color: ghostwhite;
-  background-color: rgba(69, 175, 140, 0.253);
-  height: 60px;
-  width: 400px;
-  margin: auto;
- text-align: center;
- align-items: center;
- position: absolute;
- top: 250px;
- right: 30%;
- font-size: 22px;
- padding: 20px 10px 0 ;
- border-radius: 20px;
-}
-
-
 /* mein section code start here */
 
 main{
+
   background-image: linear-gradient(rgba(39, 147, 129, 0.784),rgba(34, 127, 141, 0.481));
-  padding: 50px 0;
+  padding: 100px 0;
 }
 .main-section{
   width: 1000px;
@@ -277,6 +238,7 @@ border-radius: 10px;
   margin: 10px;
   font-size: 18px;
 }
+
 /* previous and next page start here */
 
 .previce-next-button-parent-div{
@@ -316,60 +278,3 @@ font-weight: bold;
 background-color: rgba(63, 255, 191, 0.804);
 }
 
-
-/* footer section code start here */
-footer{
- background-image: linear-gradient(rgb(74, 255, 204),rgb(0, 170, 164));
-}
-.footer-container{
-  width: 900px;
-  margin: 0px auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: space-between;
-  grid-gap: 50px;
-  padding-top: 30px;
-}
-.footer-first-item h3{
-  font-size: 25px;
-  padding: 20px 0;
-  margin-bottom: 20px;
-}
-.footer-first-item img{
-  height:70px ;
-  width: 70px;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-.footer-first-item:first-child p{
-  padding: 20px 0;
-}
-.fotter-second-item h3{
-  font-size: 25px;
-  padding: 20px 0;
-}
-.fotter-second-item a{
-  text-decoration: none;
-  color: rgb(49, 35, 10);
-  font-size: 19px;
-}
-.fotter-second-item p{
-  padding:  5px 0;
-}
-.footerthird-item div{
-  font-size: 25px;
-   padding: 20px 0;
-  
-}
-.footerthird-item div a{
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  padding: 0 10px;
-  background-color: #333030;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 0 5px;
-}
-.footerthird-item p{
-  font-size: 20px;
-}
